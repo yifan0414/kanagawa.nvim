@@ -3,17 +3,17 @@ local c = require("kanagawa.color")
 
 local function setup_terminal_colors(colors)
     vim.g.terminal_color_0 = "#090618" -- black
-    vim.g.terminal_color_1 = colors.autumnRed -- red
-    vim.g.terminal_color_2 = colors.autumnGreen -- green
-    vim.g.terminal_color_3 = colors.boatYellow2 -- yellow
+    vim.g.terminal_color_1 = "#ff5d62" -- red
+    vim.g.terminal_color_2 = "#98bb6d" -- green
+    vim.g.terminal_color_3 = "#e6c384"  -- yellow
     vim.g.terminal_color_4 = colors.crystalBlue -- blue
     vim.g.terminal_color_5 = colors.oniViolet -- magenta
     vim.g.terminal_color_6 = colors.waveAqua1 -- cyan
     vim.g.terminal_color_7 = colors.oldWhite -- white
     vim.g.terminal_color_8 = colors.fujiGray -- bright black
-    vim.g.terminal_color_9 = colors.samuraiRed -- bright red
-    vim.g.terminal_color_10 = colors.springGreen -- bright green
-    vim.g.terminal_color_11 = colors.carpYellow -- bright yellow
+    vim.g.terminal_color_9 = "#e82424" -- bright red
+    vim.g.terminal_color_10 = "#9ec967" -- bright green
+    vim.g.terminal_color_11 = "#ff9e3b" -- bright yellow
     vim.g.terminal_color_12 = colors.springBlue -- bright blue
     vim.g.terminal_color_13 = colors.springViolet1 -- bright magenta
     vim.g.terminal_color_14 = colors.waveAqua2 -- bright cyan

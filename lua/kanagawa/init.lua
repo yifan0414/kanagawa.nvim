@@ -43,7 +43,7 @@ end
 ---@class KanagawaConfig
 M.config = {
     undercurl = true,
-    commentStyle = { italic = true },
+    commentStyle = { italic = false },
     functionStyle = {},
     keywordStyle = { italic = true },
     statementStyle = { bold = true },
