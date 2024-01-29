@@ -8,7 +8,7 @@ local function setup_terminal_colors(colors)
     vim.g.terminal_color_3 = "#e6c384"  -- yellow
     vim.g.terminal_color_4 = colors.crystalBlue -- blue
     vim.g.terminal_color_5 = colors.oniViolet -- magenta
-    vim.g.terminal_color_6 = colors.waveAqua1 -- cyan
+    vim.g.terminal_color_6 = "#a3d4d5" -- cyan
     vim.g.terminal_color_7 = colors.oldWhite -- white
     vim.g.terminal_color_8 = colors.fujiGray -- bright black
     vim.g.terminal_color_9 = "#e82424" -- bright red
