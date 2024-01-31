@@ -287,12 +287,12 @@ function M.setup(colors, config)
         -- illuminatedCurWord = {},
 
         -- Git
-        diffAdded = { fg = colors.git.added },
-        diffRemoved = { fg = colors.git.removed },
-        diffDeleted = { fg = colors.git.removed },
+        diffAdded = { fg = "#98bb6c"},
+        diffRemoved = { fg = "#ff5d62"},
+        diffDeleted = { fg = "#ff5d62"},
         diffChanged = { fg = colors.git.changed },
-        diffOldFile = { fg = colors.git.removed },
-        diffNewFile = { fg = colors.git.added },
+        diffOldFile = { fg = "#ff5d62"},
+        diffNewFile = { fg = "#98bb6c" },
         -- diffFile = { fg = c.steelGray },
         -- diffLine = { fg = c.steelGray },
         -- diffIndexLine = { link = 'Identifier' },
